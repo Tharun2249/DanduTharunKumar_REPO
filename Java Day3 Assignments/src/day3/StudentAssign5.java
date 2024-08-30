@@ -31,16 +31,16 @@ public void setStid(int stid) {
 	this.stid = stid;
 }
 public static void main(String[] args) {
-	StudentAssign5 s1=new StudentAssign5(101, 'f',"veda","harshitha" );
+	StudentAssign5 s1=new StudentAssign5(101, 'M',"Tharun","Kumar" );
 	/*s1.setStid(10);
-	s1.setStdype('f');
-	s1.setStdname("radha");*/
+	s1.setStdype('M');
+	s1.setStdname("Kumar");*/
 	System.out.println(s1.getStid());
 	System.out.println(s1.getStdype());
 	System.out.println(s1.getStdname());
 	s1.setStid(102);
 	s1.setStdype('p');
-	s1.setStdname("radharam");
+	s1.setStdname("Mukesh");
 	System.out.println(s1.getStid());
 	System.out.println(s1.getStdype());
 	System.out.println(s1.getStdname());
